@@ -31,5 +31,5 @@ defaultMarkdownHandler = "goldmark"
         block = true
     [goldmark.renderer]
         hardWraps = false
-        unsafe = false
+        unsafe = true # TODO: temp setting
         xhtml = false
